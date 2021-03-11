@@ -1,0 +1,148 @@
+.gsc-control-cse .gs-spelling,
+.gsc-control-cse .gs-result .gs-title,
+.gsc-control-cse .gs-result .gs-title * {
+ 
+    font-size: 14px;
+    font-weight: normal;
+    color: #FAA634;
+}
+
+.gs-spelling a {
+    
+       font-size: 16px;
+    font-weight: bold;
+    color: #FAA634;
+}
+
+/* Wrapper for a result. */
+.gsc-webResult .gsc-result {
+    margin: 15px;
+    padding: 1em 0;
+    border-bottom: 1px solid #777777;
+    padding-left: 30px;
+}
+
+/* Wrapper for a result. */
+.gsc-webResult .gs-result {
+     height: 75px;
+    display: inline-block;
+   
+}
+
+.gsc-result-info {
+    text-align: left;
+    font-size: 1em;
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+
+.gs-image {
+    height:80px;
+    width:150px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+
+/* By default show url at the bottom of the snippet */
+.gsc-url-top {
+    display: none;
+}
+
+.gsc-url-bottom {
+    display: block;
+}
+
+/* By default show thumbnail at the left of the snippet */
+.gsc-thumbnail-left {
+    
+    display: block;
+}
+
+.gsc-thumbnail-inside {
+    display: none;
+}
+
+/* specialized, result type specific, fine grained controls */
+.gsc-result div.gs-watermark {
+    display: none;
+}
+
+.gs-visibleUrl-short {
+    display: none;
+}
+
+.gs-result a.gs-visibleUrl,
+.gs-result .gs-visibleUrl {
+    font-weight: normal;
+    font-style: italic;
+    color:  darkgray;
+    font-size: 14px;
+}
+   
+
+/* tabbed mode of search control */
+.gsc-tabsAreaInvisible,
+.gsc-refinementsAreaInvisible,
+.gsc-refinementBlockInvisible {
+    display : none;
+  }
+
+/* tab specific results header supression
+ * - no twiddle, tabbed mode runs in full expand mode
+ * - no title
+ * - no stats
+ */
+
+
+
+.gsc-tabData .gsc-resultsHeader .gsc-title {
+    display: none;
+    padding-left: 30px;
+}
+
+.gsc-tabData .gsc-resultsHeader .gsc-stats {
+    display: none;
+}
+
+.gsc-tabData .gsc-resultsHeader .gsc-results-selector {
+     display: none;
+}
+
+/* pagination */
+
+.gsc-results .gsc-cursor-box {
+   
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    cursor: pointer;
+    padding: 12px 15px;
+    margin-right:10px;
+    float:left;
+    position:relative;
+    line-height:1;
+    font-size:14px;
+   color: #FAA634;
+
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page:hover {
+    cursor : default;
+    font-weight: bold;
+    color: black;
+}
+.gssb_c {
+    margin: 0 0 0 -10px;
+}
+.gsc-completion-container {
+    background :white;
+  
+}
+
+/* remove branding */
+
+.gcsc-branding {
+    display:none;
+}

@@ -1,0 +1,13 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\ScoialMediaConnect.Tests.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\ScoialMediaConnect.Tests.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\nunit.framework.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\nunit.framework.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\obj\Debug\ScoialMediaConnect.Tests.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\ScoialMediaConnect.Tests\obj\Debug\ScoialMediaConnect.Tests.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\ScoialMediaConnect.Tests.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\ScoialMediaConnect.Tests.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\nunit.framework.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\bin\Debug\nunit.framework.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\obj\Debug\ScoialMediaConnect.Tests.csprojResolveAssemblyReference.cache
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\obj\Debug\ScoialMediaConnect.Tests.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\ScoialMediaConnect.Tests\obj\Debug\ScoialMediaConnect.Tests.pdb

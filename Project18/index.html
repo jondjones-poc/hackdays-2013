@@ -1,0 +1,174 @@
+
+<!doctype html>
+<html lang="en">
+<head>    
+    <title>Great Open Source Libraries For .NET CMS Developers</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+
+    <link href="http://fonts.googleapis.com/css?family=Rancho" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Jon D Jones</h1> 
+    </header>
+    <nav>
+        <ul>
+            <li class="selected"><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="intro">
+        <header> 
+            <h2>Great Open Source Libraries For .NET CMS Developers</h2>
+        </header>
+        <img src="images/intro_flower.png" alt="Flower" />
+    </section>
+    <div id="content">
+        <div id="mainContent">
+            <section>
+                <article class="blogPost">
+                    <div>
+                        <p> As a CMS developer, one of the biggest pains I feel in my projects is change.  Change is part and parcel of creating websites, as it's 'simple' to move a few things around on screen...  Clients who asks for feature 'x' today will almost certainly want it to do something different in a week's time.  As a web developer, it's my responsibility to build a system that doesn't require a significant investment when it needs to be changed.  I'm not a mind reader and I haven't met a developer yet who can architect a system the first time around that will work perfectly for requirements that the client hasn't even thought about yet.</p>
+
+                        <p>With that in mind, I have always favoured using third party open source libraries in my projects.  Firstly, it saves a significant amount of time (and consequently money) on unneeded development, testing and maintenance of these features. This saving means I have more room to play with the more interesting features of the site. Secondly, if you are anything like me, you won't want to write the same code over AND over AND over.  I've had a look around the web and I can't find many articles written specially for us CMS developers that highlight which projects you should look at, so, I thought I'd start my own list of open source tools I use for my clients :</p>
+
+                        <p><a href="http://getbootstrap.com/">Bootstrap</a> A great simple library that will make your front-end not look like a dog's dinner.  I use this all the time for bespoke applications when I don't have access to a designer.  Not having to worry about creating fluid grids, menus and form styles saves me days worth of effort.  As a developer I regularly need to create user interfaces for back-end systems.  Bootstrap will vastly improve the look and feel of these system in a fraction of the time.
+                        </P>
+
+                        <p><a href="http://www.nunit.org/">NUnit</a> The best unit testing framework I've used.  Originally written in Java it has been ported over to .NET.  There are so many great plug-ins and visual studio support for it, it's an invaluable asset.  As a .NET developer it's your best tool for unit testing.  If you don't know why you should use Unit Tests this is a great <a href="http://www.amazon.co.uk/Pragmatic-Unit-Testing-Junit-Programmers/dp/0974514012">book</a>.</p>
+    
+                        <p><a href="http://docs.structuremap.net/">Structure Map</a> Structure map is a great IOC container for .NET.  There are so many out there but this is the easiest one I've used so far. Creating SOLID code will future proof your code as much as possible, meaning your code should be less painful to change when the inevitable requirement changes happen.  Structure Map is as good as any of the other IOC container to help you remove your dependency.</p>
+        
+                        <p><a href="http://fluentassertions.codeplex.com/">Fluent Assertions</a> Fluent assertions is a set of extension methods that allow you to write your unit tests in a more readable and human format.  There's a good article written by the author <a href="http://www.dennisdoomen.net/2011/07/why-i-created-fluent-assertions-in.html">here</a> about why he created it. It makes your Unit Tests easier to read, when the change requests come in and you need to re-look at those tests you wrote six months ago this will help make it easier for you to get back up to speed.</p>
+    
+                        <p><a href="http://www.umbraco.org">Umbreco</a> If you are  designing a website you don't want to reinvent the wheel from scratch.  If you haven't got the budget to buy any commercial software then Umbreco is a great to start to kick off your project.  I seem to be using it more and more. If you have a small budget for your project and you can't afford a commercial CMS (granted it's not needed most of the time) then this is your best option to get started creating that build quickly.</p>
+    
+                        <p><a href="http://sourceforge.net/projects/log4net/">Log4Net</a> Log4NET is a great error logging module. It's easy to configure to either write out to your file system, database or whatever you want.  With Nuget you can add it to your project in seconds, so why waste time writing any custom? After you deploy your project, you WILL have to maintain it.  You don't want to spend hours trying to track down where that mysterious error is coming from.  Using Log4Net will give you a central point of call to help you hunt those issues down.  It's far more versatile then anything you would be able to build in the same time.</p>
+    
+                        <p><a href="http://james.newtonking.com/projects/json-net.aspx">Json.net</a> Great little framework that allows you to decorate your POCO's/DTO's or whatever naming convention you use to add in in your JSON names.  I find it really useful,  as if you decorate your objects with lower case, Resharper complains... a lot.  Using Json.NET I can use good .NET naming convention and decorate everything with suitable JSON naming conventions; after you are done JSON.net will then create your feed for you. If you need to create (or consume) any form of JSON then this will make your code more readable.</p>
+    
+                        <p><a href="http://automapper.codeplex.com/">Automapper</a> Great utility that with minimal configuration will automatically map your objects for you.  When you need to add in that extra feature, add that extra property, this will make that boilerplate DTO to DTO code a lot easer to read and to change.</p>
+    
+                        <p><a href="https://code.google.com/p/moq/">Moq</a> Simple mocking library that support Lambda/LINQ.  If you're using a CMS then a large part of your system will be hidden under the software's API.  If you want to create good scalable software, then you will need to create MOQ's to deal with a lot of your CMS API calls.</p>
+                        
+                        <p><a href="http://www.nuget.org/packages/CsvTools/">CsvReader</a> I frequently have to create CSV reports for people.  This little library allows you to throw a list of Enumerable objects at it and creates a nice CSV with the headers, you can also create custom mappings and read CSV files in directly to object.  Why re-invent the wheel for your CSV needs ?</p>
+                </div>
+             </article>
+        </section>
+        <section id="comments">
+                <h3>Comments</h3>
+                <article>
+                    <header>
+                        <a href="#">George Washington</a> on <time datetime="2009-06-29T23:35:20+01:00">June 29th 2009 at 23:35</time>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                </article>
+                <article>
+                    <header>
+                        <a href="#">Benjamin Franklin</a> on <time datetime="2009-06-29T23:40:09+01:00">June 29th 2009 at 23:40</time>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                </article>
+                <article>
+                    <header>
+                        <a href="#">Barack Obama</a> on <time datetime="2009-06-29T23:59:00+01:00">June 29th 2009 at 23:59</time>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                </article>
+            </section>
+            <form  id="demo-form" data-validate="parsley" >
+                <h3>Post a comment</h3>
+                <p>
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text" data-required="true" />
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input name="email" id="email" type="email" data-required="true"/>
+                </p>
+                <p>
+                    <label for="website">Website</label>
+                    <input name="website" id="website" type="url" />
+                </p>
+                <p>
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" data-required="true"></textarea>
+                </p>
+                <p><input type="submit" value="Post comment" /></p>
+            </form>
+        </div>
+        <aside>
+            <section>
+                <header>
+                    <h3>Categories</h3>
+                </header>
+                <ul>
+                    <li><a href="#">EPiServer</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">Immediacy</a></li>
+                    <li><a href="#">Development</a></li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Archives</h3>
+                </header>
+                <ul>
+                    <li><a href="#">December 2012</a></li>
+                    <li><a href="#">January 2012</a></li>
+                    <li><a href="#">February 2013</a></li>
+                    <li><a href="#">March 2013</a></li>
+                    <li><a href="#">April 2013</a></li>
+                    <li><a href="#">May 2013</a></li>
+                    <li><a href="#">June 2013</a></li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <div>
+            <section id="about">
+                <header>
+                    <h3>About</h3>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <a href="#">laboris nisi ut aliquip</a> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <section id="blogroll">
+                <header>
+                    <h3>Blogroll</h3>
+                </header>
+                <ul>
+                    <li><a href="#">NETTUTS+</a></li>
+                    <li><a href="#">FreelanceSwitch</a></li>
+                    <li><a href="#">In The Woods</a></li>
+                    <li><a href="#">Netsetter</a></li>
+                    <li><a href="#">PSDTUTS+</a></li>
+                </ul>
+            </section>
+            <section id="popular">
+                <header>
+                    <h3>Popular</h3>
+                </header>
+                <ul>
+                    <li><a href="#">This is the title of a blog post</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Consectetur adipisicing elit, sed do eiusmod</a></li>
+                    <li><a href="#">Duis aute irure dolor</a></li>
+                    <li><a href="#">Excepteur sint occaecat cupidatat</a></li>
+                    <li><a href="#">Reprehenderit in voluptate velit</a></li>
+                    <li><a href="#">Officia deserunt mollit anim id est laborum</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+    <script src="./js/parsley.js" type="text/javascript"></script>
+    
+</body>
+</html>

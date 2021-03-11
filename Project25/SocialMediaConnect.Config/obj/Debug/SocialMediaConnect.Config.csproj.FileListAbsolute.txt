@@ -1,0 +1,4 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialMediaConnect.Config\bin\Debug\SocialMediaConnect.Config.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialMediaConnect.Config\bin\Debug\SocialMediaConnect.Config.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialMediaConnect.Config\obj\Debug\SocialMediaConnect.Config.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialMediaConnect.Config\obj\Debug\SocialMediaConnect.Config.pdb

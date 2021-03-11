@@ -1,0 +1,37 @@
+﻿@model RavenDemo.Models.RavenDemoModel
+{
+}
+
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+
+                @using (Html.BeginForm()) {
+                    
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary()
+                    <fieldset>
+                        <div class="field">
+
+                            @Html.TextBoxFor(m => m.ProductName)
+                            <input type="submit" value="Add Product" class="btn" />
+
+                        </div>
+                    </fieldset>
+                    
+                }
+
+            </p>
+        </div>
+    </section>
+    
+    <ol class="round">
+    
+        @foreach (var item in Model.Products)
+        {
+            <li>Id = @item.Id, Product Name = @item.ProductName</li>
+        }
+        
+    </ol>
+}

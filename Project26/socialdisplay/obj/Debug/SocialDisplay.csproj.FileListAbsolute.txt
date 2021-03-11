@@ -1,0 +1,188 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\SocialDisplay.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\SocialDisplay.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Antlr3.Runtime.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.AspNet.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.Core.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Hammock.ClientProfile.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\log4net.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.Edm.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.OData.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.Infrastructure.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Net.Http.Formatting.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Spatial.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Helpers.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.OData.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.WebHost.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Mvc.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Optimization.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Razor.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Deployment.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Razor.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\TweetSharp.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\WebGrease.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.Data.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.WebData.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Hammock.ClientProfile.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\log4net.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Net.Http.Formatting.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Helpers.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.WebHost.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Mvc.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Razor.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Deployment.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Razor.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\TweetSharp.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.Data.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.WebData.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.AspNet.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.Core.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.OData.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.Edm.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.OData.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\System.Spatial.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\de\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\es\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\fr\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\it\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ja\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ko\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\ru\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\obj\Debug\SocialDisplay.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\obj\Debug\SocialDisplay.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SocialMEdiaConnect\SocialDisplay\obj\Debug\SocialDisplay.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\SocialDisplay.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\SocialDisplay.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Antlr3.Runtime.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.Core.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\EntityFramework.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Hammock.ClientProfile.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\log4net.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.Edm.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.OData.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Newtonsoft.Json.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Net.Http.Formatting.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Spatial.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Helpers.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.OData.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.WebHost.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Mvc.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Optimization.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Razor.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Razor.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\TweetSharp.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebGrease.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.Data.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.WebData.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Hammock.ClientProfile.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\log4net.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Newtonsoft.Json.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\EntityFramework.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Net.Http.Formatting.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Helpers.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.WebHost.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Mvc.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Razor.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.WebPages.Razor.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\TweetSharp.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.Data.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebMatrix.WebData.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.Core.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Web.Http.OData.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.Edm.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Data.OData.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\System.Spatial.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\de\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\es\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\fr\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\it\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ja\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ko\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\ru\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\obj\Debug\SocialDisplay.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\obj\Debug\SocialDisplay.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\StructureMap.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\StructureMap.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\StructureMap.xml
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\WebActivator.dll
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\jondjones\Downloads\SocialMEdiaConnect\SocialMEdiaConnect\SocialDisplay\bin\Microsoft.Practices.ServiceLocation.xml

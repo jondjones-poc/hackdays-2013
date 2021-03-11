@@ -1,0 +1,151 @@
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Corben', Georgia, Times, serif;
+	}
+	p, div {
+		font-family: 'Nobile', Helvetica, Arial, sans-serif;
+	}
+
+    body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+	h1 { 
+		text-shadow: 1px 1px 1px #ccc;
+	}
+
+	input
+	{
+		padding-left: 5px;
+		width: 35px;
+		margin: 15px;
+	}
+	
+	.nav-pills > .active > a, .nav-pills > .active > a:hover {
+		background-color: #1240AB;
+	}
+	
+	.div-that-you want-to-stand-out { 
+		box-shadow: 0 0 1em 1em #ccc;
+	}
+
+	.container-narrow {
+		background: url(../img/cream_dust_transparent.png) repeat 0 0;
+		margin: 0 auto;
+		padding: 30px;
+		max-width: 900px;
+	}
+
+	.span12
+	{
+		text-align: center;
+	}
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+	  
+	  .jumbotron .btn i { 
+			margin-right: 8px;  
+		}
+h1
+{
+	font-family: 'ABeeZee', sans-serif;
+}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+input
+        {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+#results
+{
+	list-style: none;
+}
+
+#results li 
+{ 
+	 height: 100px;
+	 width: 100px;
+	 border-radius:99px;
+	 -moz-border-radius:99px;
+	 -webkit-border-radius:99px;
+	  background:red;
+	  color:#fff;
+	  border:3px #fff solid;
+	  background-color: #e7676d;
+	  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7676d), to(#b7070a)); /* Saf4+, Chrome */
+	  background-image: -webkit-linear-gradient(top, #e7676d, #b7070a); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	  background-image: -moz-linear-gradient(top, #e7676d, #b7070a); /* FF3.6 */
+	  background-image: -ms-linear-gradient(top, #e7676d, #b7070a); /* IE10 */
+	  background-image: -o-linear-gradient(top, #e7676d, #b7070a); /* Opera 11.10+ */
+	  background-image: linear-gradient(top, #e7676d, #b7070a);
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7676d', EndColorStr='#b7070a'); 
+	 -webkit-box-shadow: 0px 2px 4px #000000; /* Saf3-4 */
+	 -moz-box-shadow: 0px 2px 4px #000000; /* FF3.5 - 3.6 */
+	  box-shadow: 0px 2px 4px #000000; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+	  display:inline-block;
+	  padding:2px 2px 2px 2px ;
+	  margin:3px;
+	  font-family:arial;
+	  font-weight:bold;
+	  font-size: 28px;
+	  padding-top: 30px;
+}
+
+

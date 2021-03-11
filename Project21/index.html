@@ -1,0 +1,117 @@
+<html>
+
+	<head>
+	
+	    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+		<div class="section sea" id="section1">
+			
+			<div class="contentbox">
+				<h2>Section 1</h2>
+				<p>
+					A fathomless and boundless deep,
+					There we wander, there we weep;
+					On the hungry craving wind
+					My Spectre follows thee behind.
+					<ul class="nav">
+						<li>1</li>
+						<li><a href="#section2" rel="history">2</a></li>
+						<li><a href="#section3" rel="history">3</a></li>
+					</ul>
+				</p>
+
+			</div>
+
+		</div>
+		<div class="section grass" id="section2">
+			<div class="contentbox">
+				<h2>Section 2</h2>
+				<p>
+					A fathomless and boundless deep,
+					There we wander, there we weep;
+					On the hungry craving wind
+					My Spectre follows thee behind.
+			 
+				</p>
+				<ul class="nav">
+					<li><a href="#section1" rel="history">1</a></li>
+					<li>2</li>
+					<li><a href="#section3" rel="history">3</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="section sand" id="section3">
+			<div class="contentbox">
+				<h2>Section 3</h2>
+				<p>
+					He scents thy footsteps in the snow
+					Wheresoever thou dost go,
+					Thro' the wintry hail and rain.
+					When wilt thou return again?
+			 
+				</p>
+				<ul class="nav">
+					<li><a href="#section1" rel="history">1</a></li>
+					<li><a href="#section2" rel="history">2</a></li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/jquery.history.js"></script>
+
+		<script type="text/javascript">
+		
+		var $j = jQuery.noConflict();
+		
+		jQuery('ul.nav a').bind('click',function(event){
+            var $anchor = jQuery(this);
+      
+            jQuery('html, body').stop().animate({
+                scrollLeft: jQuery($anchor.attr('href')).offset().left
+            }, 1000);
+                   
+             event.preventDefault();
+         });
+
+		function pageload(hash) {
+			if(hash) {
+				$j("#load").load(hash + ".html");
+			} else {
+				$j("#load").empty();
+			}
+		}
+		
+		function updateContent(value)
+		{   
+		console.log(value);
+			if(value) {
+				$j("#load").load(value + ".html");
+			} else {
+				$j("#load").empty();
+			}
+		}
+
+		$j(document).ready(function(){
+			$j.history.init(pageload);
+			
+			$j("a").click(function(){
+				// 
+				var hash = this.href;
+				hash = hash.replace(/^.*#/, '');
+				$j.history.load(hash);
+				return false;
+			});
+			
+
+		});		
+		</script>
+		
+	</body>
+		
+</html>

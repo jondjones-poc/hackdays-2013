@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+p, ul{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}
+
+img{
+	border: 0;
+}
+
+h1, #pixels{
+	font-family:"Museo 900", Verdana, serif;
+	font-size-adjust:0.40;
+	font-weight:700;
+	font-style:normal;
+}
+
+h2{
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	font-style:normal;
+}
+
+#header h1, #pixels{
+	color: #48941A;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#opening{
+	background: url(../img/scene1.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 750px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul#nav i
+{
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	font-size:45px;
+}
+
+
+#opening .bg{
+	background: url(../img/trainers.png) 50% 0 no-repeat fixed;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    position: absolute;
+    width: 900px;
+    z-index: 500;
+}
+
+#second{
+	background: url(../img/scene2.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 700px;
+	padding: 80px 0 0 0;	
+}
+
+#second .secondbg{
+	background: url(../img/trainers.png) 80% no-repeat;
+	height: 525px;
+	position: absolute;
+	width: 1800px;
+}
+
+#third{
+    background: url(../img/scene3.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 650px;
+    padding: 100px 0 0 0;   
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story {
+    margin: 0 auto;
+    min-width: 980px;
+    width: 980px;
+}
+
+.big {
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    width: 550px;   
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    border-radius: 15px;
+    float: left;
+    margin-top: 150px;
+    color: white;
+    margin-left: 200px;
+}
+
+.swipe-wrap img
+{
+	margin-right: 20px;
+}
+
+button
+{
+	width: 100px;
+	background-color: #6eaed1;
+	color: white;
+	border-style:solid;
+	border-width: 2px;
+	border-color: black;
+	text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    width: 350px;   
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    border-radius: 15px;
+    float: right;
+    margin-top: 150px;
+    color: white;
+}
+
+.text h2{
+    color: white;
+}
+
+.bottom{
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    width: 980px;   
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    border-radius: 15px;
+    float: right;
+    margin: 15px;
+    color: white;
+	margin-top: 500px;
+}
+
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}

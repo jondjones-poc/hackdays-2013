@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+
+	    <div class="pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+		    <a href="#" class="pure-menu-heading">Your Logo</a>
+		    <ul>
+			    <li><a href="#">Home</a></li>
+			    <li class="pure-menu-selected"><a href="#">Pricing</a></li>
+			    <li><a href="#">Contact</a></li>
+		    </ul>
+	    </div>
+
+	    <div class="bannerbackground">
+		    <h1 class="banner-head">
+			    Social Media Look-up
+		    </h1>
+		    <h2>By Jon Jones</h2>
+	    </div>
+
+        @RenderSection("featured", required: false)
+        
+        @RenderBody()
+
+	    <div class="footer">
+		    <p class="l-box">
+			    <a href="http://www.jondjones.com" target="_blank">Jon Jones.</a>.
+		    </p>
+	    </div>
+	
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿@model UnitityFacebookDemo.Models.SocialDisplayModel
+{
+}
+
+@section featured {
+    
+    <div class="banner">
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+
+            <fieldset>
+                <legend>Registration Form</legend>
+                <ol>
+                    <li>
+                        @Html.TextBoxFor(m => m.UserName) <input type="submit" value="Look Up Pofile" />
+                    </li>
+                </ol>
+                
+            </fieldset>
+        }
+
+    </div>
+    
+    <div class="l-content">
+	
+        <div class="pricing-tables pure-g-r">
+		
+            <div class="pure-u-1">
+                <div class="l-box">
+                    <div class="information-head">Person Details</div>
+                    <div class="information-body">
+                        <a href="@(Model.UserInformation.Url)" TargetControlTypeAttribute="_blank"> @(Model.UserInformation.Username) </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+}

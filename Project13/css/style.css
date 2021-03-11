@@ -1,0 +1,80 @@
+.dashboard-content
+{
+	text-align: center;
+}
+
+.dashboard-content img
+{
+	height: 300px;
+	width: 300px;
+} 
+
+.dashboard-piece-beachtile
+{
+	background:#FFBA39;
+}
+
+.dashboard-piece-SWKnitTeal
+
+{
+	background: #F9A737;
+}
+
+.dashboard-piece-mountingsky
+{
+	background: #EE6B27;
+}
+
+.dashboard-piece-yellowbg
+{
+	background: #E85C21;
+}
+
+.dashboard-piece-TropicalLagoon
+{
+	background: #DA440F;
+}
+
+.transparentareasmall
+{
+	margin:	25px;
+	background: url(../img/transparent.png) repeat 0 0;
+	height: 300px;
+	border-radius: 10px 10px;
+	padding: 20px;
+}
+
+a
+{
+	 text-decoration:none; 
+}
+
+i
+{
+	font-size: 250px;
+	margin: 35px;
+	color: #d2a247;
+}
+
+h3
+{
+	color: #d2a247;
+}
+
+h1 
+{ 
+	font-size:72px;  
+	text-transform:uppercase; margin-bottom:0px;
+}
+
+.line2 { color: orange; }
+.line3 { color: yellow; }
+.line4 { color: blue; }
+
+.char1 { color: #FFBA39 }
+.char2 { color: #F9A737 }
+.char3 { color: #EE6B27 }
+.char4 { color: #EE6B27 },
+.char5 { color:  #E85C21; }
+.char6 { color: indigo; }
+.char7 { color: violet; }

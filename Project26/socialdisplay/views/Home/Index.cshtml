@@ -1,0 +1,35 @@
+﻿@model SocialDisplay.Models.SocialModel
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new {id = "form1"}))
+{
+    <section class="featured">
+        <div class="content-wrapper">
+
+                <fieldset>
+                    <div class="field">
+                        @Html.TextBoxFor(model => model.SearchName, new { placeholder = "Search..." })
+                         <input type="submit" value="Search!">
+                    </div>
+                </fieldset>
+        </div>
+    </section>
+
+    <ul class="round">
+        
+        @if (Model.SocialMediaItems != null)
+        {
+            foreach (var item in Model.SocialMediaItems)
+            {
+                <li>
+                    <div class="socialuser">
+                        @Html.Raw(string.Format("<a href=\"{0}\">{1}</a> said on {2}", item.Url, item.Username, item.MediaPlatform))
+                    </div>
+                    <div class="socialdata">
+                        '@Html.Raw(item.Data))'
+                    </div>
+                </li>
+            }
+        }
+
+    </ul>
+
+}

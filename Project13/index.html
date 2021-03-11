@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jon D Jones</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="./css/pure-min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+        <header>
+            <nav class="pure-menu pure-menu-open pure-menu-horizontal">
+                <a href="#" class="pure-menu-heading">Jon D Jones</a>
+                <ul>
+                    <li class="pure-menu-selected"><a href="#">Home</a></li>
+                    <li class="pure-menu-selected"><a href="#">Portfolio</a></li>
+                    <li class="pure-menu-selected"><a href="#">Projects</a></li>
+                    <li class="pure-menu-selected"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="dashboard pure-g-r clearfix">
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-beachtile" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                    <div class="transparentareasmall">
+
+                        <p>
+                        I’m a programmer, technologist and a lover of all things digital. I live on the south coast of England and run my own technology company Digital Prompt.
+                        </p>
+
+                        <p>Ever since I can remember I have always been interested in solving problems and I’ve always had a slightly odd obsession for simplicity. When I first started in the industry it was this notion of creating the most elegant and simplest solution possible that inspired me to become better at my craft and it’s still the reason why I love what I do.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-beachtile" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                    <div class="transparentareasmall">
+                        <div id="demo1" class="demo">   
+                            <h1>Welcome</h1> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-beachtile" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                    <div class="transparentareasmall">
+                        <h3>My Skillz</h3>
+                        <canvas id="piechart" height="250" width="300" style="width: 300px; height: 250px;"></canvas>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-SWKnitTeal" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                     <div class="transparentareasmall">
+                        <a href="http://twiter.com/jondjones/"><i class="icon-twitter"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-mountingsky" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                    <div class="transparentareasmall">
+                        <a href="http://www.linkedin.com/profile/view?id=97747780&trk=nav_responsive_tab_profile/"><i class="icon-linkedin"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pure-u-1-3 dashboard-piece dashboard-piece-yellowbg" style="min-height: 371px;">
+                <div class="dashboard-content">
+
+                    <div class="transparentareasmall">
+                        <a href="http://www.pinterest.com/jondjones/pictures/"><i class="icon-pinterest-sign"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section class="dashboard pure-g-r clearfix">
+
+            <div class="pure-u-1 dashboard-piece dashboard-piece-TropicalLagoon" style="min-height: 413px;">
+
+                <div class="dashboard-content">
+
+              
+    
+                </div>
+            </div>
+
+        </section>
+    
+        <footer>
+            <!-- copyright information can go here-->
+        </footer>
+
+
+         <script src="./js/modernizr-2.6.2.min.js"></script>
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/Chart.min.js"></script>
+        <script src="./js/jquery.lettering.js"></script>
+        <script>
+
+
+            var pieData = [
+                            {
+                                value: 30,
+                                color:"#FFBA39",
+                                label : 'Android',
+                                labelColor : 'white',
+                                labelFontSize : '16'
+                            },
+                            {
+                                value : 50,
+                                color : "#E85C21",
+                                  label : 'IOS',
+                                labelColor : 'white',
+                                labelFontSize : '16'
+                            },
+                            {
+                                value : 100,
+                                color : "#EE6B27",
+                                  label : 'C#',
+                                labelColor : 'white',
+                                labelFontSize : '16'
+                            }
+                        
+                        ];
+
+            var myPie = new Chart(document.getElementById("piechart").getContext("2d")).Pie(pieData);
+
+            $("h1").lettering() .children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-25deg)'})
+
+          
+
+        </script>
+
+
+    </body>
+</html>

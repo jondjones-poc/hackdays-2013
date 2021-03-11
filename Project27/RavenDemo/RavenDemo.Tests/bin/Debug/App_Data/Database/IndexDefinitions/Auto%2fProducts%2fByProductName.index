@@ -1,0 +1,24 @@
+{
+  "Name": "Auto/Products/ByProductName",
+  "LockMode": "Unlock",
+  "Map": "from doc in docs.Products\r\nselect new { ProductName = doc.ProductName }",
+  "Maps": [
+    "from doc in docs.Products\r\nselect new { ProductName = doc.ProductName }"
+  ],
+  "Reduce": null,
+  "TransformResults": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": {},
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {
+    "ProductName": "ProductName"
+  },
+  "Type": "Auto"
+}

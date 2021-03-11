@@ -1,0 +1,114 @@
+<html>
+	<head>
+
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jon D Jones</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./css/style.css">
+
+	</head>
+
+	<body>
+		<div class="vimeo"></div>
+		<div id="presentation">
+
+		  <div class="slide">
+		    <h1 class="header">Sun</h1>
+
+		    <div class="video">
+		     	<iframe id="player_1" src="http://player.vimeo.com/video/32449778?api=1&amp;player_id=player_1" width="800" height="600" frameborder="0"></iframe>
+		 	</div>
+		    
+		  </div>
+		  
+		  <div class="slide">
+		    <h1 class="header">Sand</h1>
+
+		    <div class="video">
+		     	<iframe id="player_1" src="http://player.vimeo.com/video/14074949?api=1&amp;player_id=player_1" width="800" height="600" frameborder="0"></iframe>
+		 	</div>
+
+		  </div>
+
+		  <div class="slide">
+		    <h1 class="header">Surf</h1>
+
+		    <div class="video">
+		     	<iframe id="player_1" src="http://player.vimeo.com/video/34177255?api=1&amp;player_id=player_1" width="800" height="600" frameborder="0"></iframe>
+		 	</div>
+
+		  </div>
+		  
+		</div>
+
+
+
+		<script src="./js/jquery-1.10.2.min.js"></script>
+		<script src="./js/froogaloop.min.js"></script>
+		<script src="./js/fathom.min.js"></script>
+		<script src="./js/jquery.backstretch.min.js"></script>
+		<script src="./js/jquery.lettering.js"></script>
+
+		<script>
+
+			$('#presentation').fathom({
+				  timeline: [ 0, 5, 20, 30, 40, 50, 60, 75, 90, 120, 155 ],
+				  video: {
+				    source: 'vimeo',
+				    id: '16917950',
+				    parent: '#vimeo',
+				    autoplay: true
+				  }
+				});
+
+
+        $(document).ready(function() {
+            // Listen for the ready event for any vimeo video players on the page
+            var player = $('#player_1')[0];
+            $f(player).addEvent('ready', ready);
+
+            function addEvent(element, eventName, callback) {
+                if (element.addEventListener) {
+                    element.addEventListener(eventName, callback, false);
+                }
+                else {
+                    element.attachEvent(eventName, callback, false);
+                }
+            }
+
+            function ready(player_id) {
+                console.log('ready!');
+                var froogaloop = $f(player_id);
+
+                function onPlay() {
+                        froogaloop.addEvent('play', function(data) {
+                            console.log('play');
+                        });
+                }
+
+
+                function onFinish() {
+                        froogaloop.addEvent('finish', function(data) {
+                            console.log('finish');
+                        });
+                }
+
+                onPlay();
+                onFinish();
+            }
+        });
+
+ 		$.backstretch("./img/background.jpg");
+ 		$(".header").lettering("words").children('span').lettering();
+
+
+
+
+		</script>
+		         
+	</body>
+
+</html>

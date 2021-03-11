@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <link rel='stylesheet' href='./css/typahead.css' />
+    <link rel='stylesheet' href='./css/style.css' />
+      <script src="./js/modernizr.js"></script>
+</head>
+<body>
+
+    <div id="content">
+        <h1>Welcome to My Search Page</h1>
+        
+        <div class="well">  
+            <input type="text" id="search" data-provide="typeahead"/>  
+        </div> 
+
+        <section>
+            <h2>Help</h2>
+            <p>Type in what you are looking for, click on the result to be taken to the page.  If you can not find what you are looking for please type in your search query to see a list of results.</p>
+        
+        </section>
+
+       
+    </div>
+    
+    <footer>
+
+        <a href="http://www.jondjones.com" rel="external me">
+            Jon D Jones 
+        </a>
+
+    </footer>
+    <script src="./js/hogan.js"></script>
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/typeahead.min.js"></script>
+    <script src="./js/jquery.backstretch.min.js"></script>
+
+     <script type="text/javascript">
+        $.backstretch("./img/background.jpg");
+    </script>
+
+
+    <script type="text/javascript">
+
+            $(document).ready(function(){
+                $('#search').typeahead({
+                  name: 'example',
+                  prefetch: {url: './post.json', ttl: '0'},
+                  limit: 3,
+                  valueKey: 'title',
+                  template: '<p><a href="{{permalink}}">{{title}}</a></p>',
+                  engine: Hogan,
+                });
+            });
+
+    </script>
+
+</body>
+</html>

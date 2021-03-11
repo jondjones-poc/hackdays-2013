@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel='stylesheet' href='typahead.css' />
+</head>
+<body>
+
+    <div class="well">  
+        <input type="text" id="search" data-provide="typeahead"/>  
+        <input type="hidden" name="keyword" id="keyword" value="" />
+    </div> 
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+
+            var keywordObjects = {};
+            var keywords = [];
+
+            $("#search").typeahead({
+                source: function ( query, process ) {
+
+                    $.ajax({
+                        url: './keywords.json'
+                        ,cache: false
+                        ,success: function(data){
+
+                            keywordObjects = {};
+                            keywords = [];
+
+                            _.each( data, function(item, ix, list){
+
+                                keywords.push( item.keyword );
+                                keywordObjects[ item.keyword ] = item.keyword;
+                            });
+
+                            process( keywords );
+                        }
+                    });
+                }
+                , updater: function ( selectedName ) {
+
+                    $( "#keyword" ).val( keywordObjects[ selectedName ] );
+                    return selectedName;
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

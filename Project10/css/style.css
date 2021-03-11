@@ -1,0 +1,126 @@
+/* Thinnify type in Safari */
+		body { -webkit-text-stroke:1px transparent; }
+		@media only screen and (max-device-width:480px) {body{-webkit-text-stroke:0 black;}}
+
+		html,
+		body {
+			color: #141414;
+			font: normal 14px/20px Helvetica, Verdana, Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		#search {
+			width: 500px;
+		}
+		a:link,
+		a:visited {
+			color: #941350;
+			font-weight: bold;
+		}
+		a:visited {
+			color: #666;
+		}
+		a:focus,
+		a:hover {
+			color: #e33a89;
+			text-decoration: none;
+		}
+		img {
+			vertical-align: bottom;
+		}
+		#content {
+			background: #fafafa;
+			border: 2px outset #666;
+			margin: 20px auto 10px;
+			padding: 40px 40px 20px;
+			text-align: left;
+			height: 200px;
+		}
+		#content h1+p {
+			margin: 20px 0;
+		}
+		#content h1+p:first-line {
+			font-weight: bold;
+			font-variant: small-caps;
+		}
+		h1 {
+			color: #e33a89;
+			font: 27px/27px Baskerville, Palatino, Palatino Linotype, Book Antiqua, Georgia, serif;
+			margin: 0;
+			text-shadow: #aaa 5px 5px 5px;
+
+		}
+		section {
+			float: right;
+			text-align: justify;
+			width: 200px;
+		}
+		section h2 {
+			background: url(modernizr-logo.gif) 53px 5px no-repeat;
+			margin: 0;
+			height: 70px;
+			text-indent: -9999px;
+			width: 200px;
+		}
+		section p {
+			font-size: 12px;
+			line-height: 16px;
+			margin: 0 0 20px;
+			padding: 0 40px 0 0;
+			width: 200px;
+		}
+
+		footer {
+			font-size: 11px;
+			font-style: oblique;
+		}
+		footer a {
+			font-style: normal;
+		}
+		
+		/* Medium additions */
+		.js #content {
+			padding-right: 280px;
+			position: relative;
+			width: 600px;
+		}
+		.borderradius #content {
+			border: 1px solid #141414;
+			
+			border-radius: 12px;
+			-moz-border-radius: 12px;
+			-webkit-border-radius: 12px;
+		}
+		.boxshadow #content {
+			border: 0;
+			box-shadow: rgba(0,0,0, .5) 3px 3px 6px;
+			-moz-box-shadow: rgba(0,0,0, .5) 3px 3px 6px;
+			-webkit-box-shadow: rgba(0,0,0, .5) 3px 3px 6px;
+		}
+		.js section {
+			float: none;
+			position: absolute;
+			right: 40px;
+			top: 40px;
+		}
+		.js section p {
+			font-size: 11px;
+			line-height: 16px;
+		}
+		.js h1 {
+			line-height: 50px;
+		}
+		.rgba h1 {
+			text-shadow: rgba(148,19,80, .3) 5px 5px 5px;
+		}
+		@font-face {
+			src: url(Beautiful-ES.ttf);
+			font-family: "Beautiful";
+		}
+		.fontface h1 {
+			font: 42px/50px Beautiful;
+			margin: 0;
+			text-shadow: none;
+			margin-bottom: 25px;
+		}

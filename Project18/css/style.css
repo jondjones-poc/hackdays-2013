@@ -1,0 +1,353 @@
+/*------------------------------
+=BASIC SETUP
+------------------------------*/
+
+/* Makeshift CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, section, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #d4d4d4;
+
+}
+
+h1, h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+}
+
+h1{
+    font: 400 95px/1.1 'Rancho', Georgia, serif;
+    text-shadow: 2px 2px white;
+}
+
+h2 {
+    font: 400 20px/1.6 'Gudea', Verdana, Helvetica, sans-serif;
+}
+
+h3 {
+     font: 400 20px/1.6 'Gudea', Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+
+p {
+    padding-bottom: 22px;
+    color: #8d8c8c;
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: black;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+        
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+         
+
+a {
+    color: #777;
+}   
+nav ul li a:hover {
+    color: #fff;
+}
+            
+nav ul li.selected a {
+    color: #fff;
+}
+            
+/* Introduction */
+#intro {
+    position: relative;
+    margin-top: 66px;
+    padding: 44px;
+    background: white;    
+    /* Background-size not implemented yet */
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+     background:#ffffff url("images/intro_flower.png") left center no-repeat;
+    
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+}
+
+#intro h2, #intro p {
+    position: relative;
+    z-index: 9999;
+
+
+}
+    
+#intro h2 {
+    padding: 0 0 22px 0;
+    font-weight: normal;
+    color: black;
+    font: 400 45px/1.1 'Rancho', Georgia, serif;
+    text-shadow: 2px 2px white;
+    text-align: center;
+}
+    
+#intro p {
+    padding: 0;
+    color: #d9f499;
+}
+    
+#intro img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width:100%;
+    
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+}
+
+/* Content area and sidebar */
+#content {
+    display: table;
+    margin-bottom: 20px;
+}
+
+#mainContent {
+     margin-top: 10px;
+
+
+    width: 620px;
+    background: #f4f4f4;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    margin: 22px 0 0 22px;
+    padding: 11px 22px;
+}
+    
+aside {
+    display: table-cell;
+    width: 300px;
+    font: 400 14px/1.6 'Gudea', Verdana, Helvetica, sans-serif;
+}
+
+
+/* Blog post */
+.blogPost header p, .blogPost header p a {
+    font-size: 14px;
+    font-style: italic;
+    color: #777;
+}
+    
+.blogPost header p a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.blogPost div {
+    /* Column-count not implemented yet */
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    
+    /* Column-gap not implemented yet */
+    -moz-column-gap: 22px;
+    -webkit-column-gap: 22px;
+}
+    
+.blogPost img {
+    margin: 22px 0;
+    -webkit-box-shadow: 3px 3px 7px #777;
+}
+
+/* Comments */
+#comments {
+    margin-top: 21px;
+    padding-top: 22px;
+    border-top: 1px solid #d7d7d7;
+}
+
+#comments article {
+    display: table;
+    padding: 22px;
+}
+    
+#comments article:nth-child(odd) {
+    padding: 21px;
+    background: #d4d4d4;
+    border: 1px solid #d7d7d7;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+
+#comments article:nth-child(even) {
+    padding: 21px;
+    background: #ffffff;
+    border: 1px solid #d7d7d7;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+
+    
+#comments article header {
+    display: table-cell;
+    width: 220px;
+    padding-right: 22px;
+}
+        
+#comments article header a {
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+            
+#comments article header a:hover {
+    text-decoration: none;
+}
+        
+#comments article p {
+    padding: 0;
+}
+
+/* Comment Form */
+form {
+    margin-top: 21px;
+    padding-top: 22px;
+    border-top: 1px solid #d7d7d7;
+}
+
+form p {
+    display: table;
+    margin-bottom: 22px;
+    padding: 0 22px;
+}
+
+form label {
+    display: table-cell;
+    width: 140px;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+}
+    
+form input[type="text"], form input[type="email"], form input[type="url"] {
+    display: table-cell;
+    width: 300px;
+    height: 20px;
+    border: 1px solid #d7d7d7;
+}
+        
+form textarea {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #d7d7d7;
+}
+        
+form input[type="submit"] {
+    margin-left: 162px;
+}
+
+/* Sidebar */
+aside section {
+    margin: 22px 0 0 22px;
+    padding: 11px 22px;
+    background: #f4f4f4;
+    padding-bottom: 20px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+
+aside section ul {
+    margin: 0 0 0 22px;
+    list-style: none;
+}
+    
+aside section ul li a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+}
+        
+aside section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #222;
+}
+
+footer div {
+    display: table;
+    margin: 0 auto;
+    padding: 44px 0;
+    width: 940px;
+    color: #777;
+}
+    
+footer div section {
+    display: table-cell;
+    width: 300px;
+}
+        
+footer div #about, footer div #blogroll {
+    padding-right: 20px;
+}
+        
+footer h3 {
+    color: #FFF;
+}
+    
+footer a {
+    color: #999;
+}
+    
+footer a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+    
+footer ul {
+    margin: 0 0 0 40px;
+    list-style: square;
+    color: #565656;
+}
+    
+footer ul li a {
+    display: block;
+}

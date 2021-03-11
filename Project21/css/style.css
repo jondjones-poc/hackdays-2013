@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#000;
+    font-family:Georgia;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:-1px;
+    width: 5760px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+	
+    }
+p {
+    font-family: 'Droid Serif', serif;
+    font-size: 24px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+	
+a
+{
+	color: #403d39;
+	text-decoration: none;
+	
+}
+
+.contentbox
+{
+	margin: 100px;
+	padding: 100px;
+	width: 1500px;
+	height: 600px;
+	position:relative;
+	background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.contentbox p
+{
+	padding-top: 20px;
+}
+
+.contentbox ul
+{
+	position:absolute; bottom:0;
+	margin-bottom: 50px;
+}
+
+
+.section{
+    margin:0px;
+    bottom:0px;
+    width:1920px;
+    float:left;
+    height:100%;
+    text-shadow:1px 1px 2px #f0f0f0;
+	
+}
+.section h2{
+    margin:50px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.sea{
+    color:black;
+    background:#000 url(../img/screen1.jpg) no-repeat top right;
+	background-attachment: fixed;
+}
+.grass{
+     color:black;
+	 
+     background:white url(../img/screen2.jpg) no-repeat top right;
+	 background-attachment: fixed;
+}
+
+.sand{
+     color:black;
+     background:white url(../img/screen3.jpg) no-repeat top right;
+	 background-attachment: fixed;
+}
+ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color: black;
+	background-color: black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	text-align: center;
+	color: white;
+}
+ul li a{
+    display:block;
+}
+ul li a:hover{
+    text-decoration:none;
+}
